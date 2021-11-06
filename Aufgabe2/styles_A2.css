@@ -1,0 +1,11 @@
+header{
+    background-color: burlywood;
+    padding: 150px;
+}
+nav {
+    margin-top: 0px;
+    margin-left: 400px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: brown;
+}

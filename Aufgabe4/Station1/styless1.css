@@ -1,0 +1,32 @@
+body{
+    background-image: url("bg.png");
+}
+a{
+    color: black;
+}
+.Karte{
+    margin-left: 450px;
+    margin-top: 150px;
+}
+.Hintergrund{
+    position: absolute;
+}
+.Zweige{
+    position: relative;
+    left: -50px;
+    top: -50px;
+}
+.Text{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    left: 600px;
+    top: 250px;
+    color: antiquewhite;
+    font-family: cursive;
+}
+.Pinguin{
+    position: relative;
+    left: 470px;
+}

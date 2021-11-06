@@ -1,0 +1,21 @@
+body{
+    background-image: url("bg.png");
+}
+a{
+    color: black;
+}
+.Karte{
+    margin-left: 450px;
+    margin-top: 150px;
+}
+.Hintergrund{
+    position: absolute;
+}
+.Text{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 400px;
+    color: antiquewhite;
+    font-family: Jellyka Delicous Cake, cursive;
+}

@@ -1,0 +1,23 @@
+body{
+    background-image: url("bg.png");
+}
+a{
+    color: black;
+}
+.Karte{
+    margin-left: 450px;
+    margin-top: 150px;
+}
+.Hintergrund{
+    position: absolute;
+}
+.Video{
+    position: absolute;
+    top: 220px;
+    left: 480px;
+}
+.Banderole{
+    position: absolute;
+    top: 455px;
+    left: 830px;
+}

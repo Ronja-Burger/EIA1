@@ -154,25 +154,40 @@ absatz4 + auszuausco.toFixed(2) + anhang1b
 
 /* Nordamerika */
 
-document.querySelector("h1").innerHTML="Carbon Dioxide Emissions in North America"
-document.querySelector("h2").innerHTML="6035.6"
+function functionna (){
+    document.querySelector("h1").innerHTML="Carbon Dioxide Emissions in North America";
+    document.querySelector("h2").innerHTML="6035.6";
+}
+document.querySelector(".northamerica").addEventListener('click', functionna);
 
 /* Südamerika */
 
-document.querySelector("h1").innerHTML="Carbon Dioxide Emissions in South America"
-document.querySelector("h2").innerHTML="1261.5"
+function functionsa () {
+    document.querySelector("h1").innerHTML="Carbon Dioxide Emissions in South America";
+    document.querySelector("h2").innerHTML="1261.5";
+}
+document.querySelector(".southamerica").addEventListener('click', functionsa);
 
 /* Afrika */
 
-document.querySelector("h1").innerHTML="Carbon Dioxide Emissions in Africa"
-document.querySelector("h2").innerHTML="1235.5"
+function functionaf () {
+document.querySelector("h1").innerHTML="Carbon Dioxide Emissions in Africa";
+document.querySelector("h2").innerHTML="1235.5";
+}
+document.querySelector(".africa").addEventListener('click', functionaf);
 
 /* Asien */
 
-document.querySelector("h1").innerHTML="Carbon Dioxide Emissions in Asia"
-document.querySelector("h2").innerHTML="16 274.1"
+function functionas () {
+document.querySelector("h1").innerHTML="Carbon Dioxide Emissions in Asia";
+document.querySelector("h2").innerHTML="16 274.1";
+}
+document.querySelector(".asia").addEventListener('click', functionas);
 
 /* Australien */
 
-document.querySelector("h1").innerHTML="Carbon Dioxide Emissions in Australia"
-document.querySelector("h2").innerHTML="2100.5"
+function functionaus () {
+document.querySelector("h1").innerHTML="Carbon Dioxide Emissions in Australia";
+document.querySelector("h2").innerHTML="2100.5";
+}
+document.querySelector(".australia").addEventListener('click', functionaus);

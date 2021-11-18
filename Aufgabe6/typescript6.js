@@ -72,4 +72,41 @@ console.log(absatz1 + continent4 + anhang1a + continent4_2008.toFixed(2) + anhan
 console.log(absatz1 + continent5 + anhang1a + continent5_2018.toFixed(2) + anhang1b, '\n', absatz2 + continent5 + anhang2a + aszuwelt.toFixed(2) + anhang2b, '\n', absatz3 + continent5 + anhang3a + aszuas.toFixed(2) + anhang3b, '\n', absatz4 + aszuasco.toFixed(2) + anhang1b);
 /* Australien Out */
 console.log(absatz1 + continent6 + anhang1a + continent6_2018.toFixed(2) + anhang1b, '\n', absatz2 + continent6 + anhang2a + auszuwelt.toFixed(2) + anhang2b, '\n', absatz3 + continent6 + anhang3a + auszuaus.toFixed(2) + anhang3b, '\n', absatz4 + auszuausco.toFixed(2) + anhang1b);
-//# sourceMappingURL=typescript5.js.map
+/* DOM-Manipulation */
+/* Europa */
+function functioneu() {
+    document.querySelector("h1").innerHTML = "Carbon Dioxide Emissions in Europe";
+    document.querySelector("h2").innerHTML = "4209.3";
+}
+document.querySelector(".europa").addEventListener('click', functioneu);
+/* Nordamerika */
+function functionna() {
+    document.querySelector("h1").innerHTML = "Carbon Dioxide Emissions in North America";
+    document.querySelector("h2").innerHTML = "6035.6";
+}
+document.querySelector(".northamerica").addEventListener('click', functionna);
+/* Südamerika */
+function functionsa() {
+    document.querySelector("h1").innerHTML = "Carbon Dioxide Emissions in South America";
+    document.querySelector("h2").innerHTML = "1261.5";
+}
+document.querySelector(".southamerica").addEventListener('click', functionsa);
+/* Afrika */
+function functionaf() {
+    document.querySelector("h1").innerHTML = "Carbon Dioxide Emissions in Africa";
+    document.querySelector("h2").innerHTML = "1235.5";
+}
+document.querySelector(".africa").addEventListener('click', functionaf);
+/* Asien */
+function functionas() {
+    document.querySelector("h1").innerHTML = "Carbon Dioxide Emissions in Asia";
+    document.querySelector("h2").innerHTML = "16 274.1";
+}
+document.querySelector(".asia").addEventListener('click', functionas);
+/* Australien */
+function functionaus() {
+    document.querySelector("h1").innerHTML = "Carbon Dioxide Emissions in Australia";
+    document.querySelector("h2").innerHTML = "2100.5";
+}
+document.querySelector(".australia").addEventListener('click', functionaus);
+//# sourceMappingURL=typescript6.js.map

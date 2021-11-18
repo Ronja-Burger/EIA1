@@ -152,6 +152,14 @@ absatz4 + auszuausco.toFixed(2) + anhang1b
 
 /* DOM-Manipulation */
 
+/* Europa */
+
+function functioneu (){
+    document.querySelector("h1").innerHTML="Carbon Dioxide Emissions in Europe";
+    document.querySelector("h2").innerHTML="4209.3";
+}
+document.querySelector(".europa").addEventListener('click', functioneu);
+
 /* Nordamerika */
 
 function functionna (){

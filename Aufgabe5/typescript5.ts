@@ -19,12 +19,12 @@ var anhang3b : string = "% verändert." ;
 
 /* Länder Text Variablen */
 
-var continent1 : string = "africa";
-var continent2 : string = "southamerica";
-var continent3 : string = "europe";
-var continent4 : string = "northamerica";
-var continent5 : string = "asia";
-var continent6 : string = "australia";
+var continent1 : string = "Afrika";
+var continent2 : string = "Südamerika";
+var continent3 : string = "Europa";
+var continent4 : string = "Nordamerika";
+var continent5 : string = "Asien";
+var continent6 : string = "Australien";
 
 
 /* ------------------(Numbers Deklaration)------------------ */

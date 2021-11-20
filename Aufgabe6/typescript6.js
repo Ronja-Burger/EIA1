@@ -1,8 +1,8 @@
 window.addEventListener("load", function () {
     var africa = "Africa";
-    var southamerica = "Southamerica";
+    var southamerica = "South America";
     var europe = "Europe";
-    var northamerica = "Northamerica";
+    var northamerica = "North America";
     var asia = "Asia";
     var australia = "Australia";
     var africa_2008 = 1280;

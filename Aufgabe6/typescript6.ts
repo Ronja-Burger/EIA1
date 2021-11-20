@@ -1,9 +1,9 @@
 window.addEventListener("load", function(){
 
 var africa : string = "Africa";
-var southamerica : string = "Southamerica";
+var southamerica : string = "South America";
 var europe : string = "Europe";
-var northamerica : string = "Northamerica";
+var northamerica : string = "North America";
 var asia : string = "Asia";
 var australia : string = "Australia";
 

@@ -1,9 +1,11 @@
-var africa : string = "africa";
-var southamerica : string = "southamerica";
-var europe : string = "europe";
-var northamerica : string = "northamerica";
-var asia : string = "asia";
-var australia : string = "australia";
+window.addEventListener("load", function(){
+
+var africa : string = "Africa";
+var southamerica : string = "Southamerica";
+var europe : string = "Europe";
+var northamerica : string = "Northamerica";
+var asia : string = "Asia";
+var australia : string = "Australia";
 
 var africa_2008 : number = 1280;
 var southamerica_2008 : number = 1132.6;
@@ -81,3 +83,4 @@ document.querySelector(".growthrate").innerHTML = landzulandco.toFixed(2);
 document.querySelector("#titleRegion").innerHTML = land;
 document.querySelector("#subtitleRegion").innerHTML = land;
 }
+});

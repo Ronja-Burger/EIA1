@@ -33,3 +33,10 @@ footer p {
 .asia:hover{opacity: 100%;}
 .africa:hover{opacity: 100%;}
 .australia:hover{opacity: 100%;}
+
+.europe:active{opacity: 100%;}
+.northamerica:active{opacity: 100%;}
+.southamerica:active{opacity: 100%;}
+.asia:active{opacity: 100%;}
+.africa:active{opacity: 100%;}
+.australia:active{opacity: 100%;}

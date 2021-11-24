@@ -59,5 +59,9 @@ window.addEventListener("load", function () {
         document.querySelector("#titleRegion").innerHTML = land;
         document.querySelector("#subtitleRegion").innerHTML = land;
     }
+    /*
+    var Grafik:HTMLElement = document.querySelector(".chart")
+    Grafik.style.height = landzuwelt + "px";
+    */
 });
 //# sourceMappingURL=typescript6.js.map

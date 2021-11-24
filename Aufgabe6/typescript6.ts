@@ -83,4 +83,8 @@ document.querySelector(".growthrate").innerHTML = landzulandco.toFixed(2);
 document.querySelector("#titleRegion").innerHTML = land;
 document.querySelector("#subtitleRegion").innerHTML = land;
 }
+
+var Grafik:HTMLElement = document.querySelector(".chart")
+Grafik.style.height = landzuwelt + "px";
+
 });

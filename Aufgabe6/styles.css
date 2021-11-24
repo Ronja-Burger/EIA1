@@ -40,3 +40,18 @@ footer p {
 .asia:active{opacity: 100%;}
 .africa:active{opacity: 100%;}
 .australia:active{opacity: 100%;}
+
+.chartwrapper {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.chartwrapper .chart {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    background: white;
+}

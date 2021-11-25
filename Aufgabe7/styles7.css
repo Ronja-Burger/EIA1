@@ -2,13 +2,25 @@ body{
     background-color: black;
 }
 .buttons{
-    margin-left: 200px;
-    margin-right: 200px;
+    width: 650px;
+    margin-left: 400px;
 }
 .b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9 {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin: 5px;
-    background-color: blanchedalmond;
+    border-radius: 30px;
     cursor: pointer;
+}
+.b1, .b2, .b3{
+    background-color: skyblue;
+}
+.b4, .b5, .b6, .b7{
+    background-color: rosybrown;
+}
+.b8, .b9{
+    background-color: blanchedalmond;
+}
+img{
+    object-position: center;
 }

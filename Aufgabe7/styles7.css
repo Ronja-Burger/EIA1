@@ -1,26 +1,32 @@
 body{
     background-color: black;
 }
+a{
+    padding: 10px;
+    background-color: #bf6b74;
+    text-decoration: none;
+    margin-top: 10px;
+}
 .buttons{
     width: 650px;
-    margin-left: 400px;
+    margin-left: 500px;
 }
 .b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9 {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: 5px;
     border-radius: 30px;
     cursor: pointer;
 }
 .b1, .b2, .b3{
-    background-color: skyblue;
+    background-color: #74a7c9;
 }
 .b4, .b5, .b6, .b7{
-    background-color: rosybrown;
+    background-color: #bf6b74;
 }
 .b8, .b9{
-    background-color: blanchedalmond;
+    background-color: #fcc978;
 }
-img{
-    object-position: center;
+.play{
+    margin-left: 680px;
 }

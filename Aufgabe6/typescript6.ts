@@ -66,12 +66,41 @@ var auszuausco: number = australia_2018-australia_2008;
 
 /* DOM-Manipulation*/
 
-document.querySelector(".africa").addEventListener("click", function () {lander(africa, africa_2018, afzuwelt, afzuaf, afzuafco);});
-document.querySelector(".southamerica").addEventListener("click", function () {lander(southamerica, southamerica_2018, sazuwelt, sazusa, sazusaco);});
-document.querySelector(".europe").addEventListener("click", function () {lander(europe, europe_2018, euzuwelt, euzueu, euzueuco);});
-document.querySelector(".northamerica").addEventListener("click", function () {lander(northamerica, northamerica_2018, nazuwelt, nazuna, nazunaco);});
-document.querySelector(".asia").addEventListener("click", function () {lander(asia, asia_2018, aszuwelt, aszuas, aszuasco);});
-document.querySelector(".australia").addEventListener("click", function () {lander(australia, australia_2018, auszuwelt, auszuaus, auszuausco);});
+document.querySelector(".africa").addEventListener("click", function () {
+    lander(africa, africa_2018, afzuwelt, afzuaf, afzuafco);
+    var Grafik:HTMLElement = document.querySelector(".chart")
+    Grafik.style.height = afzuwelt + "px";
+});
+
+document.querySelector(".southamerica").addEventListener("click", function () {
+    lander(southamerica, southamerica_2018, sazuwelt, sazusa, sazusaco);
+    var Grafik:HTMLElement = document.querySelector(".chart")
+    Grafik.style.height = sazuwelt + "px";
+});
+
+document.querySelector(".europe").addEventListener("click", function () {
+    lander(europe, europe_2018, euzuwelt, euzueu, euzueuco);
+    var Grafik:HTMLElement = document.querySelector(".chart")
+    Grafik.style.height = euzuwelt + "px";    
+});
+
+document.querySelector(".northamerica").addEventListener("click", function () {
+    lander(northamerica, northamerica_2018, nazuwelt, nazuna, nazunaco);
+    var Grafik:HTMLElement = document.querySelector(".chart")
+    Grafik.style.height = nazuwelt + "px";
+});
+
+document.querySelector(".asia").addEventListener("click", function () {
+    lander(asia, asia_2018, aszuwelt, aszuas, aszuasco);
+    var Grafik:HTMLElement = document.querySelector(".chart")
+    Grafik.style.height = aszuwelt + "px";
+});
+
+document.querySelector(".australia").addEventListener("click", function () {
+    lander(australia, australia_2018, auszuwelt, auszuaus, auszuausco);
+    var Grafik:HTMLElement = document.querySelector(".chart")
+    Grafik.style.height = auszuwelt + "px";
+});
 
 /* Funktion Länder */
 
@@ -83,8 +112,5 @@ document.querySelector(".growthrate").innerHTML = landzulandco.toFixed(2);
 document.querySelector("#titleRegion").innerHTML = land;
 document.querySelector("#subtitleRegion").innerHTML = land;
 }
-
-var Grafik:HTMLElement = document.querySelector(".chart")
-Grafik.style.height = landzuwelt + "px";
 
 });

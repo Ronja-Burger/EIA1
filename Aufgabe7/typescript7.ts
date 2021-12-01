@@ -1,3 +1,5 @@
+window.addEventListener ('load', function (){
+
 var samp = [new Audio('Audio/C.mp3'), new Audio('Audio/F.mp3'), new Audio('Audio/G.mp3'),
 new Audio('Audio/Hi_Hat.mp3'), new Audio('Audio/Kick.mp3'), new Audio('Audio/Snare1.mp3'),
 new Audio('Audio/Snare2.mp3'), new Audio('Audio/Laugh1.mp3'), new Audio('Audio/Laugh2.mp3'),
@@ -19,3 +21,4 @@ function playSample(ton, snare, hihat) {
     setInterval(function () { snare.play(); }, 1000);
     setInterval(function () { hihat.play(); }, 2000);
 }
+});

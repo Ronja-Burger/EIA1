@@ -11,6 +11,12 @@ new Audio("Audio/Snare2.mp3")];
 var i: number = 0;
 var buttons: HTMLElement = document.querySelector(".buttons");
 
+function playBeat (beat: 0): void { 
+    while (beat[i] == 0) {
+        beat[i].play();
+        i++;
+    }}
+
 document.querySelector(".b1").addEventListener("click", function (): void {playSample(samp[0]); }); // warum streicht er mir hier das rot an?
 document.querySelector(".b2").addEventListener("click", function (): void {playSample(samp[1]); });
 document.querySelector(".b3").addEventListener("click", function (): void {playSample(samp[2]); });
@@ -50,11 +56,14 @@ document.querySelector(".fas fa-play-circle").addEventListener("click", function
                                                                                       function Buttontausch(): void {
     if (buttons.getAttribute("class") == "fas fa-stop-circle") {
         buttons.setAttribute("class", "fas fa-play-circle");
+        window.setInterval( playBeat);
     }
     else {
         buttons.setAttribute("class", "fas fa-stop-circle");
         if (buttons.getAttribute("class") == "fas fa-play-circle") { beat.pause(); } // warum funktioniert das dann bei meinem Kommilitonen?
+        clearInterval();
     }
+
 
 
 

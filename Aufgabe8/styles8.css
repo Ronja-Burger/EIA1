@@ -34,8 +34,10 @@ a{
 }
 #play, #stop, #remix, #trash{
     color: #74a7c9;
-    width: 80px;
-    height: 80px;
+    font-size: 80px;
     cursor: pointer;
+    margin: 20px;
 }
-/* aus irgendeinem Grund nehmen die Icons die gewünschte Formatierung nicht vollständig an */
+#play:hover, #stop:hover, #remix:hover, #trash:hover{
+    opacity: 50%;
+}

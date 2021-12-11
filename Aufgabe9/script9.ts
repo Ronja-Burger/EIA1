@@ -23,20 +23,20 @@ window.addEventListener ("load", function (): void {
   input.value = "";
 
 
-// Hinzufügen eines Listenelements
+  // Hinzufügen eines Listenelements
   // 1. Select the div element using the id property
-      const app = document.getElementById("app");
+  const app = document.getElementById("app");
   // 2. Create a new <p></p> element programmatically
-      const p = document.createElement("p");
+  const p = document.createElement("p");
   // 3. Add the text content
-      p.textContent = Eingabefeld;
-      p.addEventListener("click", erledigen);
+  p.textContent = Eingabefeld;
+  p.addEventListener("click", erledigen);
   // 4. Append the p element to the div element
-      app.appendChild(p);
+  app.appendChild(p);
     }
 
     function erledigen(): void {
-      if (this.style.textDecoration == "line-through"){
+      if (this.style.textDecoration == "line-through") {
         this.style.textDecoration = "none";
         this.style.color = "#2f4f4f";
       }
@@ -46,3 +46,10 @@ window.addEventListener ("load", function (): void {
       }
     }
 }); 
+//and the trashcan
+/*
+const trash = document.createElement("button");
+trash.innerText = "Löschen";
+trash.classList.add("trash", "fas fa-trash");
+p.appendChild(trash);
+*/

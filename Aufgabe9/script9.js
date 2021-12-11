@@ -39,4 +39,11 @@ window.addEventListener("load", function () {
         }
     }
 });
+//and the trashcan
+/*
+const trash = document.createElement("button");
+trash.innerText = "Löschen";
+trash.classList.add("trash", "fas fa-trash");
+p.appendChild(trash);
+*/ 
 //# sourceMappingURL=script9.js.map

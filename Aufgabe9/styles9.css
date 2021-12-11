@@ -1,0 +1,25 @@
+body{
+    background-color: bisque;
+}
+h1{
+    color: brown;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+p{
+    color: peru;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#hinzufügen {
+    color: indianred;
+    font-size: 50px;
+    border-radius: 30px;
+}
+#hinzufügen:hover{
+    cursor: pointer;
+}
+#eingabeText{
+    width: 200px;
+    height: 30px;
+}

@@ -1,6 +1,11 @@
 body{
     background-color: bisque;
 }
+a{
+    padding: 10px;
+    background-color: peru;
+    text-decoration: none;
+}
 h1{
     color: brown;
     font-family: sans-serif;
